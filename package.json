@@ -1,0 +1,17 @@
+{
+  "name": "chat-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "DEBUG=chat:* node ./src/app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "debug": "2.6.9",
+    "express": "4.16.4",
+    "socket.io": "2.2.0"
+  },
+  "devDependencies": {
+    "jest": "24.7.1"
+  }
+}
